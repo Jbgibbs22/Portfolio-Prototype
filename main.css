@@ -1,0 +1,84 @@
+header{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin: 30px;
+    font-family: Franklin Gothic;
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
+}
+body{
+    text-align: center;
+    background: url(Beach.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+ul, li{
+    display: inline;
+    text-decoration: none;
+    padding: 45px;
+    font-size: 25px;
+    margin: 20px;
+    font-family: arial narrow;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    transition: 0.7s ease;
+    background: rgba(32, 224, 238, 0.411);
+}
+a:hover{
+    background: black;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Franklin Gothic;
+    margin: 140px;
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
+}
+p{
+    text-align: justify;
+    margin: 0;
+    
+
+}
+.newspaper{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: dotted;
+    column-rule-width: 2px;
+    margin-top: -80px;
+    font-size: 22px;
+    font-family: Geneva;
+    -webkit-text-stroke: 0.3px rgb(0, 0, 0);
+    color: white;
+}
+  .row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+    margin-top: 20px;
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    padding: 7px;
+    
+  }
